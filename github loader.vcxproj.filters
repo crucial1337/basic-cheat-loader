@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="streaming">
+      <UniqueIdentifier>{1ce8c66c-29b0-4506-a494-87e4d4877939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="streaming\dll/injector">
+      <UniqueIdentifier>{eb69c836-f501-4f7a-83da-b4435c411165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protection">
+      <UniqueIdentifier>{8463736a-a5fa-41a4-907b-cc13d56cd1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utilsmapper.h">
+      <Filter>streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="utilsmapper.hpp">
+      <Filter>streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>streaming\dll/injector</Filter>
+    </ClInclude>
+    <ClInclude Include="dll.h">
+      <Filter>streaming\dll/injector</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+    <ClInclude Include="prot.h">
+      <Filter>protection</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
